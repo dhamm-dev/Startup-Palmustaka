@@ -1179,6 +1179,7 @@ h4 {
 .hero__grup-cta {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: var(--jarak-md);
 }
 
