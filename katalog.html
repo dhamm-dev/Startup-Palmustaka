@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog Buku Palmustaka Publisher — Temukan koleksi lengkap buku fiksi, non-fiksi, agama, puisi, dan pendidikan. Pesan mudah via WhatsApp.">
+  <title>Katalog Buku — Palmustaka Publisher</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__kontainer">
+      <div class="navbar__logo">
+        <a href="index.html" class="navbar__logo-tautan" aria-label="Kembali ke halaman utama Palmustaka">
+          <span class="navbar__logo-teks">Palmustaka</span>
+          <span class="navbar__logo-sub">Publisher</span>
+        </a>
+      </div>
+
+      <button
+        class="navbar__tombol-menu"
+        id="tombolMenu"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="navigasiUtama"
+      >
+        <span class="navbar__ikon-hamburger"></span>
+      </button>
+
+      <nav class="navbar__navigasi" id="navigasiUtama" aria-label="Navigasi utama">
+        <ul class="navbar__daftar-tautan">
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="index.html">Beranda</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="index.html#tentang">Tentang</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="kirim-naskah.html">Kirim Naskah</a>
+          </li>
+          <li class="navbar__item">
+            <!-- Link aktif di halaman ini -->
+            <a class="navbar__tautan navbar__tautan--aktif" href="katalog.html">Katalog</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="index.html#kontak">Kontak</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <div class="halaman-header">
+    <div class="halaman-header__kontainer kontainer">
+      <h1 class="halaman-header__judul">Katalog Buku</h1>
+      <p class="halaman-header__subjudul">
+        Temukan buku pilihan dari koleksi Palmustaka Publisher.
+        Pesan langsung via WhatsApp — mudah, cepat, terpercaya.
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== KATALOG ===== -->
+  <section class="katalog" id="katalog" aria-labelledby="judulKatalog">
+    <div class="katalog__kontainer kontainer">
+      <h2 class="sr-only" id="judulKatalog">Daftar Buku</h2>
+
+      <!-- Filter Kategori — diisi oleh JavaScript -->
+      <div class="katalog__filter" id="filterKategori" role="group" aria-label="Filter kategori buku">
+      </div>
+
+      <!-- Status Loading / Error — dikelola JavaScript -->
+      <div class="katalog__status" id="statusKatalog" aria-live="polite" aria-atomic="true">
+        <p class="katalog__status-teks">Memuat katalog buku…</p>
+      </div>
+
+      <!-- Grid Buku — diisi oleh JavaScript -->
+      <div class="katalog__grid" id="gridBuku" aria-label="Daftar buku">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="kontak">
+    <div class="footer__kontainer kontainer">
+      <div class="footer__grid">
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Palmustaka Publisher</h3>
+          <p class="footer__teks">
+            Penerbit buku independen yang berkomitmen menghadirkan karya berkualitas untuk masyarakat Indonesia.
+          </p>
+          <div class="footer__sosmed">
+            <a href="https://facebook.com" class="footer__sosmed-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook Palmustaka">
+              <img class="footer__sosmed-ikon-svg" src="assets/icon/facebook.svg" alt="">
+            </a>
+            <a href="https://instagram.com" class="footer__sosmed-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram Palmustaka">
+              <img class="footer__sosmed-ikon-svg" src="assets/icon/instagram.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Navigasi</h3>
+          <ul class="footer__daftar-tautan">
+            <li><a class="footer__tautan" href="index.html">Beranda</a></li>
+            <li><a class="footer__tautan" href="index.html#tentang">Tentang Kami</a></li>
+            <li><a class="footer__tautan" href="kirim-naskah.html">Kirim Naskah</a></li>
+            <li><a class="footer__tautan" href="katalog.html">Katalog Buku</a></li>
+            <li><a class="footer__tautan" href="index.html#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Hubungi Kami</h3>
+          <address class="footer__alamat">
+            <div class="footer__alamat-item">
+              <img class="footer__alamat-ikon-svg" src="assets/icon/location.svg" alt="" aria-hidden="true">
+              <span class="footer__teks">Jl. Raya Sriamur, Desa Sriamur, Kecamatan Tambun Utara, Kabupaten Bekasi, Jawa Barat 17561</span>
+            </div>
+            <div class="footer__alamat-item">
+              <span class="footer__teks">📞 +62 858-7204-3811</span>
+            </div>
+            <div class="footer__alamat-item">
+              <img class="footer__alamat-ikon-svg" src="assets/icon/gmail.svg" alt="" aria-hidden="true">
+              <span class="footer__teks">palmustaka@gmail.com</span>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__hak-cipta">
+        <p>&copy; <span id="tahunSekarang"></span> Palmustaka Publisher. Semua hak dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: main.js (shared) DULU, lalu katalog.js -->
+  <script src="js/main.js"></script>
+  <script src="js/katalog.js"></script>
+</body>
+</html>

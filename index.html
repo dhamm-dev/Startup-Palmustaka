@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Palmustaka Publisher — Penerbit buku independen yang berkomitmen menghadirkan karya bermutu untuk masyarakat Indonesia sejak 2010.">
+  <title>Palmustaka Publisher — Penerbit Buku Independen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__kontainer">
+      <div class="navbar__logo">
+        <a href="index.html" class="navbar__logo-tautan" aria-label="Halaman utama Palmustaka Publisher">
+          <span class="navbar__logo-teks">Palmustaka</span>
+          <span class="navbar__logo-sub">Publisher</span>
+        </a>
+      </div>
+
+      <button
+        class="navbar__tombol-menu"
+        id="tombolMenu"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="navigasiUtama"
+      >
+        <span class="navbar__ikon-hamburger"></span>
+      </button>
+
+      <nav class="navbar__navigasi" id="navigasiUtama" aria-label="Navigasi utama">
+        <ul class="navbar__daftar-tautan">
+          <li class="navbar__item">
+            <!-- Beranda aktif di halaman ini -->
+            <a class="navbar__tautan navbar__tautan--aktif" href="index.html">Beranda</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="#tentang">Tentang</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="kirim-naskah.html">Kirim Naskah</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="katalog.html">Katalog</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__tautan" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="beranda">
+    <div class="hero__konten kontainer">
+      <h1 class="hero__judul">
+        Penerbit Buku Independen<br>yang Berpihak pada Penulis dan Pembaca
+      </h1>
+      <p class="hero__deskripsi">
+        Sejak 2010, Palmustaka Publisher hadir dengan komitmen tunggal:
+        menerbitkan karya-karya bermutu yang layak dibaca, dihargai, dan diwariskan.
+      </p>
+      <div class="hero__grup-cta">
+        <a class="hero__tombol-cta" href="katalog.html">
+          Lihat Katalog Buku
+        </a>
+        <a class="hero__tombol-cta hero__tombol-cta--sekunder" href="kirim-naskah.html">
+          Kirim Naskah
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG KAMI ===== -->
+  <section class="tentang" id="tentang">
+    <div class="tentang__kontainer kontainer">
+      <h2 class="tentang__judul-seksi judul-seksi">Tentang Kami</h2>
+      <div class="tentang__grid">
+        <div class="tentang__kolom-teks">
+          <p class="tentang__paragraf">
+            <strong>Palmustaka Publisher</strong> berdiri sejak 2026 sebagai penerbit independen yang berkomitmen
+            menghadirkan karya-karya bermutu bagi masyarakat Indonesia. Kami percaya bahwa buku adalah
+            jembatan ilmu yang mampu mengubah kehidupan.
+          </p>
+          <p class="tentang__paragraf">
+            Dengan proses kurasi ketat dan standar editorial tinggi, setiap buku yang kami terbitkan telah
+            melalui seleksi mendalam agar memberikan nilai terbaik bagi pembaca. Dari penulis lokal berbakat
+            hingga karya terjemahan terpilih, semua hadir di Palmustaka.
+          </p>
+          <p class="tentang__paragraf">
+            Kami percaya bahwa setiap naskah yang datang menyimpan potensi.
+            Tim editorial kami terdiri dari para praktisi literasi berpengalaman yang bekerja
+            dengan pendekatan kolaboratif — mendampingi penulis dari manuskrip hingga buku jadi.
+          </p>
+        </div>
+
+        <div class="tentang__kolom-statistik">
+          <div class="tentang__stat-kartu">
+            <span class="tentang__stat-angka">500+</span>
+            <span class="tentang__stat-label">Judul Buku</span>
+          </div>
+          <div class="tentang__stat-kartu">
+            <span class="tentang__stat-angka">15.000+</span>
+            <span class="tentang__stat-label">Pembaca Setia</span>
+          </div>
+          <div class="tentang__stat-kartu">
+            <span class="tentang__stat-angka">14</span>
+            <span class="tentang__stat-label">Tahun Berpengalaman</span>
+          </div>
+          <div class="tentang__stat-kartu">
+            <span class="tentang__stat-angka">50+</span>
+            <span class="tentang__stat-label">Penulis Mitra</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEUNGGULAN KAMI ===== -->
+  <section class="keunggulan" id="keunggulan" aria-labelledby="judulKeunggulan">
+    <div class="keunggulan__kontainer kontainer">
+      <h2 class="keunggulan__judul-seksi judul-seksi" id="judulKeunggulan">Mengapa Memilih Palmustaka?</h2>
+      <div class="keunggulan__grid">
+
+        <div class="keunggulan__item">
+          <img class="keunggulan__ikon-svg" src="assets/icon/write.svg" alt="" aria-hidden="true">
+          <h3 class="keunggulan__item-judul">Kurasi Editorial Ketat</h3>
+          <p class="keunggulan__item-deskripsi">
+            Setiap naskah melalui tahap seleksi dan penyuntingan berlapis oleh editor berpengalaman.
+            Kami tidak menerbitkan sembarangan — kami menerbitkan yang terbaik.
+          </p>
+        </div>
+
+        <div class="keunggulan__item">
+          <img class="keunggulan__ikon-svg" src="assets/icon/book.svg" alt="" aria-hidden="true">
+          <h3 class="keunggulan__item-judul">Royalti Transparan</h3>
+          <p class="keunggulan__item-deskripsi">
+            Sistem royalti yang jelas, laporan penjualan berkala, dan kontrak yang melindungi hak penulis.
+            Tidak ada biaya tersembunyi, tidak ada kejutan.
+          </p>
+        </div>
+
+        <div class="keunggulan__item">
+          <img class="keunggulan__ikon-svg" src="assets/icon/location.svg" alt="" aria-hidden="true">
+          <h3 class="keunggulan__item-judul">Distribusi Luas</h3>
+          <p class="keunggulan__item-deskripsi">
+            Buku Palmustaka tersedia di toko buku jaringan nasional, platform e-commerce,
+            dan dapat dipesan langsung via WhatsApp untuk kemudahan pembaca di seluruh Indonesia.
+          </p>
+        </div>
+
+        <div class="keunggulan__item">
+          <img class="keunggulan__ikon-svg" src="assets/icon/book.svg" alt="" aria-hidden="true">
+          <h3 class="keunggulan__item-judul">14 Tahun Terpercaya</h3>
+          <p class="keunggulan__item-deskripsi">
+            Berdiri sejak 2010 dengan track record lebih dari 500 judul buku dan 15.000+ pembaca setia.
+            Kepercayaan yang dibangun satu buku dalam satu waktu.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROSES PENERBITAN ===== -->
+  <section class="proses" id="proses" aria-labelledby="judulProses">
+    <div class="proses__kontainer kontainer">
+      <h2 class="proses__judul-seksi judul-seksi" id="judulProses">Dari Naskah ke Rak Buku</h2>
+      <p class="proses__subjudul">
+        Kami percaya proses penerbitan yang transparan adalah hak setiap penulis.
+      </p>
+      <ol class="proses__daftar-langkah">
+
+        <li class="proses__langkah">
+          <div class="proses__langkah-nomor" aria-hidden="true">1</div>
+          <div class="proses__langkah-konten">
+            <h3 class="proses__langkah-judul">Pengiriman Naskah</h3>
+            <p class="proses__langkah-deskripsi">Kirim naskah lengkap beserta sinopsis dan biodata penulis.</p>
+          </div>
+        </li>
+
+        <li class="proses__langkah">
+          <div class="proses__langkah-nomor" aria-hidden="true">2</div>
+          <div class="proses__langkah-konten">
+            <h3 class="proses__langkah-judul">Seleksi Awal</h3>
+            <p class="proses__langkah-deskripsi">Tim kurasi menilai kelayakan naskah dalam 14 hari kerja.</p>
+          </div>
+        </li>
+
+        <li class="proses__langkah">
+          <div class="proses__langkah-nomor" aria-hidden="true">3</div>
+          <div class="proses__langkah-konten">
+            <h3 class="proses__langkah-judul">Editing &amp; Revisi</h3>
+            <p class="proses__langkah-deskripsi">Editor bekerja bersama penulis memperkuat naskah.</p>
+          </div>
+        </li>
+
+        <li class="proses__langkah">
+          <div class="proses__langkah-nomor" aria-hidden="true">4</div>
+          <div class="proses__langkah-konten">
+            <h3 class="proses__langkah-judul">Desain &amp; Cetak</h3>
+            <p class="proses__langkah-deskripsi">Tata letak, desain sampul, dan produksi cetak profesional.</p>
+          </div>
+        </li>
+
+        <li class="proses__langkah">
+          <div class="proses__langkah-nomor" aria-hidden="true">5</div>
+          <div class="proses__langkah-konten">
+            <h3 class="proses__langkah-judul">Distribusi &amp; Penjualan</h3>
+            <p class="proses__langkah-deskripsi">Buku diedarkan ke jaringan distribusi nasional dan digital.</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== CTA HALAMAN ===== -->
+  <section class="cta-halaman" id="cta-halaman" aria-labelledby="judulCtaHalaman">
+    <div class="cta-halaman__kontainer kontainer">
+      <h2 class="cta-halaman__judul-seksi judul-seksi" id="judulCtaHalaman">Apa yang Ingin Kamu Lakukan?</h2>
+      <div class="cta-halaman__grid">
+
+        <div class="cta-halaman__kartu">
+          <img class="cta-halaman__kartu-ikon-svg" src="assets/icon/book.svg" alt="" aria-hidden="true">
+          <h3 class="cta-halaman__kartu-judul">Cari Buku untuk Dibaca</h3>
+          <p class="cta-halaman__kartu-deskripsi">
+            Jelajahi koleksi lengkap kami — dari fiksi, non-fiksi, agama, puisi, hingga buku pendidikan.
+            Pesan langsung via WhatsApp.
+          </p>
+          <a class="cta-halaman__kartu-tombol" href="katalog.html">Buka Katalog Buku &rarr;</a>
+        </div>
+
+        <div class="cta-halaman__kartu cta-halaman__kartu--aksen">
+          <img class="cta-halaman__kartu-ikon-svg" src="assets/icon/write.svg" alt="" aria-hidden="true">
+          <h3 class="cta-halaman__kartu-judul">Terbitkan Karyamu</h3>
+          <p class="cta-halaman__kartu-deskripsi">
+            Punya naskah yang siap diterbitkan? Pelajari prosedur, format teknis,
+            dan syarat pengiriman naskah ke Palmustaka.
+          </p>
+          <a class="cta-halaman__kartu-tombol" href="kirim-naskah.html">Lihat Cara Kirim Naskah &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER / KONTAK ===== -->
+  <footer class="footer" id="kontak">
+    <div class="footer__kontainer kontainer">
+      <div class="footer__grid">
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Palmustaka Publisher</h3>
+          <p class="footer__teks">
+            Penerbit buku independen yang berkomitmen menghadirkan karya berkualitas untuk masyarakat Indonesia.
+          </p>
+          <div class="footer__sosmed">
+            <a href="https://facebook.com" class="footer__sosmed-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook Palmustaka">
+              <img class="footer__sosmed-ikon-svg" src="assets/icon/facebook.svg" alt="">
+            </a>
+            <a href="https://instagram.com" class="footer__sosmed-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram Palmustaka">
+              <img class="footer__sosmed-ikon-svg" src="assets/icon/instagram.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Navigasi</h3>
+          <ul class="footer__daftar-tautan">
+            <li><a class="footer__tautan" href="index.html">Beranda</a></li>
+            <li><a class="footer__tautan" href="#tentang">Tentang Kami</a></li>
+            <li><a class="footer__tautan" href="kirim-naskah.html">Kirim Naskah</a></li>
+            <li><a class="footer__tautan" href="katalog.html">Katalog Buku</a></li>
+            <li><a class="footer__tautan" href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__kolom">
+          <h3 class="footer__judul-kolom">Hubungi Kami</h3>
+          <address class="footer__alamat">
+            <div class="footer__alamat-item">
+              <img class="footer__alamat-ikon-svg" src="assets/icon/location.svg" alt="" aria-hidden="true">
+              <span class="footer__teks">Jl. Raya Sriamur, Desa Sriamur, Kecamatan Tambun Utara, Kabupaten Bekasi, Jawa Barat 17561</span>
+            </div>
+            <div class="footer__alamat-item">
+              <span class="footer__teks">📞 +62 858-7204-3811</span>
+            </div>
+            <div class="footer__alamat-item">
+              <img class="footer__alamat-ikon-svg" src="assets/icon/gmail.svg" alt="" aria-hidden="true">
+              <span class="footer__teks">palmustaka@gmail.com</span>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__hak-cipta">
+        <p>&copy; <span id="tahunSekarang"></span> Palmustaka Publisher. Semua hak dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: hanya main.js (tidak butuh katalog.js atau kirim-naskah.js) -->
+  <script src="js/main.js"></script>
+</body>
+</html>

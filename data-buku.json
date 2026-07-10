@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "judul": "Laskar Pelangi",
+    "penulis": "Andrea Hirata",
+    "harga": 89000,
+    "gambar": "assets/images/laskar-pelangi.jpg",
+    "deskripsi": "Novel inspiratif tentang perjuangan anak-anak Belitung meraih mimpi di tengah keterbatasan. Kisah persahabatan yang mengharukan dan penuh semangat.",
+    "kategori": "Fiksi"
+  },
+  {
+    "id": 2,
+    "judul": "Atomic Habits",
+    "penulis": "James Clear",
+    "harga": 119000,
+    "gambar": "assets/images/atomic-habits.jpg",
+    "deskripsi": "Panduan praktis membangun kebiasaan baik dan menghilangkan kebiasaan buruk melalui perubahan kecil yang berdampak besar dalam kehidupan sehari-hari.",
+    "kategori": "Non-Fiksi"
+  },
+  {
+    "id": 3,
+    "judul": "Fikih Kontemporer",
+    "penulis": "Dr. Yusuf Al-Qaradawi",
+    "harga": 95000,
+    "gambar": "assets/images/fikih-kontemporer.jpg",
+    "deskripsi": "Pembahasan hukum Islam dalam konteks kehidupan modern. Membahas berbagai persoalan kontemporer yang dihadapi umat Muslim masa kini.",
+    "kategori": "Agama"
+  },
+  {
+    "id": 4,
+    "judul": "Hujan Bulan Juni",
+    "penulis": "Sapardi Djoko Damono",
+    "harga": 72000,
+    "gambar": "assets/images/hujan-bulan-juni.jpg",
+    "deskripsi": "Kumpulan puisi paling ikonik karya maestro sastra Indonesia. Puisi-puisi yang menyentuh hati dengan bahasa yang indah dan penuh makna.",
+    "kategori": "Puisi"
+  },
+  {
+    "id": 5,
+    "judul": "Matematika Dasar untuk SMA",
+    "penulis": "Prof. Suharto Wijaya",
+    "harga": 65000,
+    "gambar": "assets/images/matematika-dasar.jpg",
+    "deskripsi": "Buku pelajaran matematika komprehensif untuk siswa SMA. Dilengkapi contoh soal, latihan, dan pembahasan lengkap setiap bab.",
+    "kategori": "Pendidikan"
+  }
+]
