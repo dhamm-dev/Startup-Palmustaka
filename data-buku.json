@@ -45,6 +45,6 @@
     "kategori": "Pendidikan"
   },
   {
-    "cleanUrl": true
+    "cleanUrls": true
   }
 ]
