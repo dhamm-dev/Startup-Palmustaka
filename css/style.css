@@ -173,6 +173,11 @@ h4 {
   line-height: 1.1;
 }
 
+.navbar__logo-img {
+  width: 32px;
+  height: 32px;
+}
+
 .navbar__logo-teks {
   font-size: 1.25rem;
   font-weight: 700;
@@ -975,8 +980,14 @@ h4 {
    ----------------------------------------------------------------------- */
 .navbar__logo-tautan {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: var(--jarak-sm);
   line-height: 1.1;
+}
+
+.navbar__logo-konten {
+  display: flex;
+  flex-direction: column;
 }
 
 /* -----------------------------------------------------------------------
